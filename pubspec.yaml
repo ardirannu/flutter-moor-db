@@ -1,0 +1,24 @@
+name: moor_db
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  moor_flutter: 4.0.0
+  flutter: 
+    sdk: flutter
+  build_runner: ^2.4.9
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  moor_generator: 4.6.0+1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
